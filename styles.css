@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#mainImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Warna merah transparan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.message {
+    background: red;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.error {
+    color: black;
+}
+
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
