@@ -1,0 +1,9 @@
+// Sembunyikan status bar
+window.decorView.systemUiVisibility = (
+    View.SYSTEM_UI_FLAG_FULLSCREEN
+    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+    or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+)
+
+// Pastikan WebView mengisi layar penuh
+webView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
